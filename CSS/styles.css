@@ -16,7 +16,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
+    "contact" 
     "header"
     "navigation"
     "welcome"
@@ -24,4 +25,15 @@ body {
     "relaxing"
     "sleeping"
     "footer";
+}
+
+.header {
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../IMG/bonz.ai-logo-black-landscape.png);
+    background-position-x:center;
+    background-position-y: 180%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
 }
