@@ -44,6 +44,7 @@ body {
     border-radius: 50%;
     width: 1rem;
 }
+
 .header {
     height: 8rem;
     background-color: rgb(255, 255, 255);
@@ -53,4 +54,23 @@ body {
     background-size: 70%;
     background-repeat: no-repeat;
     /* overflow: hidden; */
+}
+
+.welcome {
+    height: 28rem;
+    background-image: url(../IMG/04-day.jpg);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+.welcome .welcome__heading{
+    font-size: 7.5rem;
+    margin-top: auto;
+    margin-bottom: 0;
+    transform: translateY(1.9rem);
+   
 }
