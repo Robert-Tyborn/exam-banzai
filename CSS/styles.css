@@ -11,6 +11,12 @@ body {
     justify-content: center; */
 }
 
+.book-button {
+    margin: 2px;
+    border: 0;
+    border-radius: 5px;
+}
+
 .wrapper {
     max-width: 1000px;
     display: grid;
@@ -37,14 +43,35 @@ body {
 }
 .contact .contact__img {
     width: 1rem;
+    transition: 0.1s;
 }
-.contact .contact__call-mail{
+.contact .contact__call-mail {
     background-color: white;
     border: solid white 1px;
     border-radius: 50%;
     width: 1rem;
+    transition: .1s;
+}
+.contact .contact__call-mail:hover {
+    transform: scale(1.5);
+}
+.contact .contact__img:hover {
+    transform: scale(1.5);
 }
 
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2.6rem;
+}
+.navigation__item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.594);
+    margin-top: 1px;
+}
+.navigation__item:hover{
+    color: white;
+}
 .header {
     height: 8rem;
     background-color: rgb(125, 78, 46);
