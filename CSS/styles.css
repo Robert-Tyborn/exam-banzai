@@ -27,6 +27,16 @@ body {
     "footer";
 }
 
+.contact {
+    color: white;
+    margin: 1px;
+    display: flex;
+    height: 3rem;
+    justify-content: space-evenly;
+}
+.contact .contact__img {
+    width: 1rem;
+}
 .header {
     height: 10rem;
     background-color: rgb(255, 255, 255);
