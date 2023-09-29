@@ -73,6 +73,7 @@ li {
 }
 .contact .contact__img {
     width: 1rem;
+    transform: translateY(.2rem);
     transition: 0.1s;
 }
 .contact .contact__call-mail {
