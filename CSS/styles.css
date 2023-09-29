@@ -60,8 +60,9 @@ li {
     color: white;
     margin: 1px;
     display: flex;
-    height: 1.9rem;
+    height: 1.2rem;
     justify-content: space-evenly;
+    align-items: center;
     font-size: 0.8rem;
     opacity: 0.594;
     transition: .5s;
