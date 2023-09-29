@@ -7,8 +7,8 @@ body {
     height: 100vh;
     margin: 0;
     background-color: black;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
 }
 h2 {
     font-size: 7rem;
@@ -84,10 +84,10 @@ li {
     transition: .1s;
 }
 .contact .contact__call-mail:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .contact .contact__img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .header {
