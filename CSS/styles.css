@@ -28,6 +28,9 @@ h4 {
     margin: 0;
     width: 200px;
 }
+h6 {
+    font-size: 17px;
+}
 p {
     color: white;
     margin-bottom: 5rem;
@@ -256,4 +259,114 @@ a {
 }
 .footer .footer__info ul li a:hover{
     color: rgba(255, 255, 255, 0.848);
+}
+
+/* ----- book ----- */
+
+.book-title, .book-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.64);
+    margin: 0;
+}
+.book-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.book__search {
+    background-color: rgb(125, 78, 46);
+    height: 15rem;
+    margin-top: 30px;
+}
+.book-title {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.book__search-title h5{
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.book__search-title {
+    padding: 1px;
+}
+.book__search-date, .book__search-room, .book__search-code {
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.book__card {
+    background-color: white;
+    display: flex;
+    justify-content: ;
+    border-bottom: solid black 10px;
+    border-top: solid black 10px;
+    color: rgb(125, 78, 46);
+    display: flex;
+}
+.book__card__info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 60%;
+    margin-left: 20px;
+}
+.book__card__info h6, p, ul{
+    margin: 10px;
+}
+.book__card__info p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(194, 194, 194)
+}
+.book__card__info ul li {
+    text-decoration:; /* ----------- kolla detta ------------ */
+}
+.book__card__dubble {
+    width: 15rem;
+    height: 20rem;
+    background-image: url(../IMG/04-day.jpg);
+    background-position-x:center;
+    background-position-y: 35% ;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.book__card__single {
+    width: 15rem;
+    height: 20rem;
+    background-image: url(../IMG/07-day.jpg);
+    background-position-x:center;
+    background-position-y: 45% ;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.book__card__family {
+    width: 15rem;
+    height: 20rem;
+    background-image: url(../IMG/06-day.jpg);
+    background-position-x:center;
+    background-position-y: 45% ;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.book__card__deluxe {
+    width: 15rem;
+    height: 20rem;
+    background-image: url(../IMG/01-day.jpg);
+    background-position-x:center;
+    background-position-y: 45% ;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.book__card__info .book-button {
+    width: 30%;
+    align-self: flex-end;
 }
