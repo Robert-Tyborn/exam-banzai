@@ -367,6 +367,6 @@ a {
     margin: 0;
 }
 .book__card__info .book-button {
-    width: 30%;
+    width: 80px;
     align-self: flex-end;
 }
