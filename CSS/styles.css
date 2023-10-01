@@ -123,7 +123,7 @@ a {
     font-size: 20px;
     font-weight: 700;
     margin-right: 60px;
-    transform: translateY(0.45rem);
+    transform: translateY(1.15rem);
 }
 
 .navigation {
@@ -198,6 +198,14 @@ a {
     grid-area: living-book;
     padding: 2rem 2rem 2rem 0rem;
 }
+.living-book-text {
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.living-book-text-left {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
 
 .relaxing-night {
     grid-area: relaxing-night;
@@ -252,6 +260,12 @@ a {
     background-color: rgb(125, 78, 46);
     border-right: 2px solid;
     transform: translateY(-2.87rem);
+}
+.footer .footer__info ul {
+    transform: translateY(-0.8rem);
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: 700;
 }
 .footer .footer__info ul li a {
     text-decoration: none;
@@ -376,4 +390,40 @@ a {
     width: 80px;
     align-self: flex-end;
     margin-top: 15px;
+}
+
+/* ----- about ----- */
+
+.about {
+    margin: 0;
+    height: 28rem;
+    background-image: url(../IMG/09-day.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.about__title {
+    font-size: 7.5rem;
+    margin: 0;
+    align-self: flex-start;
+}
+.about__people {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about__family {
+    height: 26rem;
+    margin: 0;
+}
+.about__figure {
+    margin: 0;
+} 
+.about__text-title, .about__text {
+    text-align: center;
 }
