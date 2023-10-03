@@ -390,9 +390,16 @@ a {
     margin: 0;
 }
 .book__card__info .book-button {
-    width: 80px;
-    align-self: flex-end;
+    width: 80px;    
     margin-top: 15px;
+}
+.book__price {
+    display: flex;
+    justify-content: space-between;
+}
+.book__price p {
+    border-bottom: 0;
+    color: black;
 }
 
 /* ----- about ----- */
