@@ -440,6 +440,7 @@ a {
     h4 {
         width: auto;
     }
+    
     .wrapper {
         width: 100%;
     }
@@ -457,7 +458,12 @@ a {
         background-image: url(../IMG/bonz.ai-logo-black-landscape.png);
         background-size: 70%;
         background-position-y: 50%;
-      
+    }
+    .header__text p {
+        width: 2rem;
+        font-size: 10px;
+        margin-right: 20px;
+        transform: translateY(0);
     }
     .welcome {
         height: 10rem;
@@ -486,5 +492,11 @@ a {
     .living-book, .relaxing-book, .sleeping-book {
         padding: 0px 10px 20px 40px;
     }
-
+    .footer:hover {
+        background-color: rgba(58, 135, 180, 0.863);
+    }
+    .footer__info {
+        display: none;
+    }
+ 
 }
