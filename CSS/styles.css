@@ -17,7 +17,7 @@ h2 {
     transform: translateY(-23%);
 }
 h3 {
-    font-size: 2.5rem;
+    font-size: 30px;
     color: white;
     margin-top: 0;
     margin-bottom: 0;
@@ -130,7 +130,7 @@ a {
 .navigation {
     display: flex;
     justify-content: flex-end;
-    gap: 2.6rem;
+    gap: 5.6rem;
 }
 .navigation__item {
     text-decoration: none;
@@ -430,9 +430,13 @@ a {
 .about__text-title, .about__text {
     text-align: center;
 }
+.about__text-contact {
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+}
 
 @media screen and (min-width:300px) and (max-width:768px){
-    h2, .bottom, .footer__info {
+    h2, .contact-no-display, .footer__info {
        display: none;
     }
     h4 {
@@ -442,12 +446,12 @@ a {
         width: 100%;
     }
     .contact {
-        width: 65%;
+        width: 100%;
         flex-direction: row;
     }
-  .contact figure .contact__call-mail {
-    display: none;
-  }
+    .contact figure .contact__call-mail {
+        display: none;
+    }
     .header .header__box, .footer .footer__box {
         height: 4rem;
         width: 2.7rem;
@@ -471,7 +475,7 @@ a {
     }
     .welcome .welcome__heading {
         font-size: 3rem;
-        transform: translateY(1.2rem); 
+        transform: translateY(0.9rem); 
     }
     .wrapper-grid {
         height: 100%;
@@ -501,6 +505,7 @@ a {
     .navigation {
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         gap: 0.4rem;
     }
     .navigation__item {
@@ -508,6 +513,10 @@ a {
         color: rgba(255, 255, 255, 0.594);
         margin-top: 1px;
         font-size: 12px;
+    }
+    .navigation .book-button {
+        height: 0.8rem;   
+        padding-bottom: 14px;
     }
     .footer {
         width: 100%;
@@ -525,6 +534,14 @@ a {
         width: 100%;
         height: 170px;
         background-size: 100%;
-        
     }
+    .about {
+        height: 10rem;
+        margin-bottom: 10px;
+    }
+    .about__family {
+        height: 9rem;
+        transform: translateY(30%);
+    }
+   
 }
