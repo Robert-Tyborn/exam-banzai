@@ -322,7 +322,6 @@ a {
 .book__card {
     background-color: white;
     display: flex;
-    justify-content: ;
     border-bottom: solid black 10px;
     border-top: solid black 10px;
     color: rgb(125, 78, 46);
@@ -353,7 +352,7 @@ a {
 .book__card__dubble {
     width: 15rem;
     height: 20rem;
-    background-image: url(../IMG/04-day.jpg);
+    background-image: url(../IMG/06-day.jpg);
     background-position-x:center;
     background-position-y: 35% ;
     background-size: 250%;
@@ -433,21 +432,22 @@ a {
 }
 
 @media screen and (min-width:300px) and (max-width:768px){
-    h2 {
-        font-size: 3rem;
-        transform: translateY(-23%);
+    h2, .bottom, .footer__info {
+       display: none;
     }
     h4 {
         width: auto;
     }
-    
     .wrapper {
         width: 100%;
     }
     .contact {
-        width: 50%;
+        width: 65%;
         flex-direction: row;
     }
+  .contact figure .contact__call-mail {
+    display: none;
+  }
     .header .header__box, .footer .footer__box {
         height: 4rem;
         width: 2.7rem;
@@ -471,10 +471,10 @@ a {
     }
     .welcome .welcome__heading {
         font-size: 3rem;
-        /* color: white; */
         transform: translateY(1.2rem); 
     }
     .wrapper-grid {
+        height: 100%;
         grid-template-columns: 1fr;
         grid-template-areas:      
         "living-day" 
@@ -484,6 +484,9 @@ a {
         "sleeping-day"
         "sleeping-book"
         "footer";
+    }
+    .wrapper-grid::after{
+        margin-bottom: 0;
     }
     .relaxing-book {
         text-align: left;
@@ -495,8 +498,33 @@ a {
     .footer:hover {
         background-color: rgba(58, 135, 180, 0.863);
     }
-    .footer__info {
-        display: none;
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.4rem;
     }
- 
+    .navigation__item {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.594);
+        margin-top: 1px;
+        font-size: 12px;
+    }
+    .footer {
+        width: 100%;
+    }
+    .book__card {
+        flex-direction: column;
+        font-size: 15px;
+        border: 0;
+    }
+    .book__card__info {
+        margin-left: 40px;
+        width: 80%;
+    }
+    .book__card__dubble, .book__card__single, .book__card__family, .book__card__deluxe {
+        width: 100%;
+        height: 170px;
+        background-size: 100%;
+        
+    }
 }
