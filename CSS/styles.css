@@ -431,3 +431,60 @@ a {
 .about__text-title, .about__text {
     text-align: center;
 }
+
+@media screen and (min-width:300px) and (max-width:768px){
+    h2 {
+        font-size: 3rem;
+        transform: translateY(-23%);
+    }
+    h4 {
+        width: auto;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .contact {
+        width: 50%;
+        flex-direction: row;
+    }
+    .header .header__box, .footer .footer__box {
+        height: 4rem;
+        width: 2.7rem;
+        border-right: 2px solid;
+    }
+    .header, .footer {
+        height: 4rem;
+        background-image: url(../IMG/bonz.ai-logo-black-landscape.png);
+        background-size: 70%;
+        background-position-y: 50%;
+      
+    }
+    .welcome {
+        height: 10rem;
+        background-image: url(../IMG/04-day.jpg);
+    }
+    .welcome .welcome__heading {
+        font-size: 3rem;
+        /* color: white; */
+        transform: translateY(1.2rem); 
+    }
+    .wrapper-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:      
+        "living-day" 
+        "living-book"
+        "relaxing-day"
+        "relaxing-book"
+        "sleeping-day"
+        "sleeping-book"
+        "footer";
+    }
+    .relaxing-book {
+        text-align: left;
+        padding: 2rem 2rem 2rem 0rem;
+    }
+    .living-book, .relaxing-book, .sleeping-book {
+        padding: 0px 10px 20px 40px;
+    }
+
+}
