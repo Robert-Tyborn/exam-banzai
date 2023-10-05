@@ -371,7 +371,7 @@ a {
 }
 .book__family {
     width: 15rem;
-    height: 20rem;
+    height: 21rem;
     background-image: url(../IMG/03-day.jpg);
     background-position-x:center;
     background-position-y: 45% ;
@@ -381,7 +381,7 @@ a {
 }
 .book__deluxe {
     width: 15rem;
-    height: 20rem;
+    height: 21rem;
     background-image: url(../IMG/01-day.jpg);
     background-position-x:center;
     background-position-y: 45% ;
