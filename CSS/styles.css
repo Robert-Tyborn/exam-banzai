@@ -167,12 +167,12 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     grid-template-areas:
-    "living-night living-night living-book"
-    "living-day living-day living-book"
-    "relaxing-book relaxing-night relaxing-night"
-    "relaxing-book relaxing-day relaxing-day"
-    "sleeping-night sleeping-night sleeping-book"
-    "sleeping-day sleeping-day sleeping-book"
+    "living-night living-night living"
+    "living-day living-day living"
+    "relaxing relaxing-night relaxing-night"
+    "relaxing relaxing-day relaxing-day"
+    "sleeping-night sleeping-night sleeping"
+    "sleeping-day sleeping-day sleeping"
     "footer footer footer";
 }
 
@@ -195,15 +195,15 @@ a {
     background-image: url(../IMG/05-day.jpg);
     margin-bottom: 20px;
 }
-.living-book {
-    grid-area: living-book;
+.living {
+    grid-area: living;
     padding: 2rem 2rem 2rem 0rem;
 }
-.living-book-text {
+.living__text {
     margin-left: 0;
     margin-bottom: 30px;
 }
-.living-book-text-left {
+.living__text-left {
     margin-right: 0;
     margin-bottom: 30px;
 }
@@ -217,8 +217,8 @@ a {
     background-image: url(../IMG/09-day.jpg);
     margin-bottom: 20px;
 }
-.relaxing-book {
-    grid-area: relaxing-book;
+.relaxing {
+    grid-area: relaxing;
     padding: 2rem 0rem 2rem 2rem;
     text-align: right;
 }
@@ -231,8 +231,8 @@ a {
     grid-area: sleeping-day;
     background-image: url(../IMG/03-day.jpg);
 }
-.sleeping-book {
-    grid-area: sleeping-book;
+.sleeping {
+    grid-area: sleeping;
     padding: 2rem 2rem 2rem 0rem;
 }
 
@@ -489,21 +489,21 @@ a {
         grid-template-columns: 1fr;
         grid-template-areas:      
         "living-day" 
-        "living-book"
+        "living"
         "relaxing-day"
-        "relaxing-book"
+        "relaxing"
         "sleeping-day"
-        "sleeping-book"
+        "sleeping"
         "footer";
     }
     .wrapper-grid::after{
         margin-bottom: 0;
     }
-    .relaxing-book {
+    .relaxing {
         text-align: left;
         padding: 2rem 2rem 2rem 0rem;
     }
-    .living-book, .relaxing-book, .sleeping-book {
+    .living, .relaxing, .sleeping {
         padding: 0px 10px 20px 40px;
     }
     .footer:hover {
