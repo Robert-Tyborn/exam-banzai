@@ -281,12 +281,12 @@ a {
 
 /* ----- book ----- */
 
-.book-title, .book-text {
+.booking-title, .booking-text {
     text-align: center;
     color: rgba(255, 255, 255, 0.64);
     margin: 0;
 }
-.book-text {
+.booking-text {
     font-size: 14px;
     font-weight: 400;
 }
@@ -297,7 +297,7 @@ a {
     margin-top: 30px;
     margin-bottom: 25px;
 }
-.book-title {
+.booking-title {
     margin-top: 30px;
     font-size: 25px;
 }
@@ -319,7 +319,7 @@ a {
     border-radius: 5px;
     font-size: 16px;
 }
-.book__card {
+.book {
     background-color: white;
     display: flex;
     border-bottom: solid black 10px;
@@ -327,29 +327,29 @@ a {
     color: rgb(125, 78, 46);
     display: flex;
 }
-.book__card__info {
+.book__info {
     display: flex;
     flex-direction: column;
     padding: 10px;
     width: 70%;
     margin-left: 20px;
 }
-.book__card__info h6, p, ul{
+.book__info h6, p, ul{
     margin: 10px;
 }
-.book__card__info p {
+.book__info p {
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(194, 194, 194)
 }
-.book__card__lists {
+.book__lists {
     display: flex;
     justify-content: space-between;
     border-bottom: solid rgba(0, 0, 0, 0.579) 1px;
 }
-.book__card__list li {
+.book__list li {
     list-style: circle;
 }
-.book__card__dubble {
+.book__dubble {
     width: 15rem;
     height: 20rem;
     background-image: url(../IMG/06-day.jpg);
@@ -359,7 +359,7 @@ a {
     background-repeat: no-repeat;
     margin: 0;
 }
-.book__card__single {
+.book__single {
     width: 15rem;
     height: 20rem;
     background-image: url(../IMG/07-day.jpg);
@@ -369,7 +369,7 @@ a {
     background-repeat: no-repeat;
     margin: 0;
 }
-.book__card__family {
+.book__family {
     width: 15rem;
     height: 20rem;
     background-image: url(../IMG/03-day.jpg);
@@ -379,7 +379,7 @@ a {
     background-repeat: no-repeat;
     margin: 0;
 }
-.book__card__deluxe {
+.book__deluxe {
     width: 15rem;
     height: 20rem;
     background-image: url(../IMG/01-day.jpg);
@@ -389,7 +389,7 @@ a {
     background-repeat: no-repeat;
     margin: 0;
 }
-.book__card__info .book-button {
+.book__info .book-button {
     width: 80px;    
     margin-top: 15px;
 }
@@ -443,7 +443,7 @@ a {
 }
 
 @media screen and (min-width:300px) and (max-width:768px){
-    h2, .contact-no-display, .footer__info {
+    h2, .contact__no-display, .footer__info {
        display: none;
     }
     h4 {
@@ -528,16 +528,16 @@ a {
     .footer {
         width: 100%;
     }
-    .book__card {
+    .book {
         flex-direction: column;
         font-size: 15px;
         border: 0;
     }
-    .book__card__info {
+    .book__info {
         margin-left: 40px;
         width: 80%;
     }
-    .book__card__dubble, .book__card__single, .book__card__family, .book__card__deluxe {
+    .book__dubble, .book__single, .book__family, .book__deluxe {
         width: 100%;
         height: 170px;
         background-size: 100%;
