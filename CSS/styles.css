@@ -291,7 +291,7 @@ a {
     font-weight: 400;
 }
 
-.book__search {
+.search {
     background-color: rgb(125, 78, 46);
     height: 14rem;
     margin-top: 30px;
@@ -301,16 +301,16 @@ a {
     margin-top: 30px;
     font-size: 25px;
 }
-.book__search-title h5{
+.search__title h5{
     height: 40px;
     font-size: 30px;
     text-align: center;
     margin: 10px;
 }
-.book__search-title {
+.search__title {
     padding: 1px;
 }
-.book__search-date, .book__search-room, .book__search-code {
+.search__date, .search__room, .search__code {
     height: 40px;
     background-color: rgb(255, 255, 255);
     display: flex;
