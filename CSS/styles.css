@@ -443,7 +443,7 @@ a {
 }
 
 @media screen and (min-width:300px) and (max-width:768px){
-    h2, .contact__no-display, .footer__info {
+    h2, .contact-no-display, .footer__info {
        display: none;
     }
     h4 {
